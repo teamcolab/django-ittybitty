@@ -1,3 +1,4 @@
+from builtins import object
 from django.shortcuts import get_object_or_404
 from django.http import Http404, HttpResponsePermanentRedirect
 from django.conf import settings

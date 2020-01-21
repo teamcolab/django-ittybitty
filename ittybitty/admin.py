@@ -1,5 +1,6 @@
-from django.contrib import admin
-from models import IttyBittyURL
+from __future__ import absolute_import
+from django.db import admin
+from .models import IttyBittyURL
 
 class IttyBittyURLAdmin(admin.ModelAdmin):
     list_display = ('shortcut', 'url', 'date_created', 'hits')
